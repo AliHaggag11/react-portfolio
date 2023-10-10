@@ -22,7 +22,7 @@ export const data=[
         name:"Data Finance LP",
         image:Dataf,
         github:"https://github.com/AliHaggag11/Data-Finance-Landing-Page",
-        live:"data-finance-lp.vercel.app",
+        live:"https://data-finance-lp.vercel.app/",
     },
     
 
