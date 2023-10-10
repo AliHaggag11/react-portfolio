@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
+  const scrollToWorkRef = useRef();
+
+  const handleButtonClick = () => {
+    scrollToWorkRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
-      {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-orange-600 text-3xl' >Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
@@ -19,7 +24,10 @@ const Home = () => {
           building responsive full-stack web applications.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-600 hover:border-cyan-600'>
+          <button 
+            className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-600 hover:border-cyan-600'
+            onClick={handleButtonClick}
+          >
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
@@ -27,6 +35,9 @@ const Home = () => {
           </button>
         </div>
       </div>
+
+      {/* This is the section you want to scroll to */}
+      <div ref={scrollToWorkRef}></div>
     </div>
   );
 };
