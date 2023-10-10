@@ -6,7 +6,7 @@ User-friendly interface
 Responsive design
 Interactive components
 Project showcase with details
-Contact form powered by Getform.io for easy communication
+Contact form powered by Getform.io for easy communication 
 Technologies Used
 React
 Getform.io
