@@ -1,6 +1,7 @@
 import Upscale from '../assets/projects/upscale.jpeg'
 import Blog from '../assets/projects/blog.jpeg'
 import Dataf from '../assets/projects/datafinance.jpeg'
+import Trekkr from '../assets/projects/trekkr.jpeg'
 
 export const data=[
     {
@@ -24,6 +25,14 @@ export const data=[
         github:"https://github.com/AliHaggag11/Data-Finance-Landing-Page",
         live:"https://data-finance-lp.vercel.app/",
     },
+    {
+        id:4,
+        name:"Trekkr App Website",
+        image:Trekkr,
+        github:"https://github.com/AliHaggag11/Trekkr-webapp",
+        live:"https://trekkr.vercel.app/",
+    },
+    
     
 
 
