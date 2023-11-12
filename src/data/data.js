@@ -4,6 +4,7 @@ import Dataf from '../assets/projects/datafinance.jpeg'
 import Trekkr from '../assets/projects/trekkr.jpeg'
 import RemindMe from '../assets/projects/RemindMe.jpeg'
 import Maps from '../assets/projects/Maps.jpeg'
+import Alto from '../assets/projects/alto.jpeg'
 
 export const data=[
     {
@@ -47,6 +48,13 @@ export const data=[
         image: Maps,
         github:"https://github.com/AliHaggag11/historic-map",
         live:"https://historic-map.vercel.app/",
+    },
+    {
+        id:7,
+        name:"Alto Contracting Company (Draft)",
+        image: Alto,
+        github:"https://altocontracting.netlify.app/",
+        live:"https://altocontracting.netlify.app/",
     },
     
     
