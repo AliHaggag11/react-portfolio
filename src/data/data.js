@@ -3,6 +3,7 @@ import Blog from '../assets/projects/blog.jpeg'
 import Dataf from '../assets/projects/datafinance.jpeg'
 import Trekkr from '../assets/projects/trekkr.jpeg'
 import RemindMe from '../assets/projects/RemindMe.jpeg'
+import Maps from '../assets/projects/Maps.jpeg'
 
 export const data=[
     {
@@ -39,6 +40,13 @@ export const data=[
         image:RemindMe,
         github:"https://github.com/AliHaggag11/remindMe-reminder-app",
         live:"https://drive.google.com/file/d/1H0OkEY8MCBhQyquCPk_pjzNa-uZT4XT2/view?usp=sharing",
+    },
+    {
+        id:6,
+        name:"Interactive Historic Events Map",
+        image: Maps,
+        github:"https://github.com/AliHaggag11/historic-map",
+        live:"https://historic-map.vercel.app/",
     },
     
     
