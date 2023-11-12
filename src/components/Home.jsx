@@ -15,10 +15,10 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Ali Haggag
         </h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
+        <h2 className='text-4xl sm:text-7xl font-bold text-slate-300'>
           I'm a Full Stack Developer.
         </h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
+        <p className='text-slate-300 py-4 max-w-[700px]'>
         I'm not just your average full-stack developer – I'm a digital architect crafting extraordinary online experiences. While I dabble in design, my real forte lies in building responsive and dynamic full-stack web applications. Let's not just navigate the digital world; let's conquer it together. Ready to transform your online presence into something truly exceptional?
         </p>
         <div>
