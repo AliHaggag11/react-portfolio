@@ -10,8 +10,8 @@ export const data=[
         id:1,
         name:"Upscale Agency Website",
         image:Upscale,
-        github:"https://upscale-da.netlify.app/",
-        live:"https://upscale-da.netlify.app/",
+        github:"https://upscaleda.netlify.app/",
+        live:"https://upscaleda.netlify.app/",
     },
     {
         id:2,
