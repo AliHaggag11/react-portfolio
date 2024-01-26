@@ -5,6 +5,7 @@ import Trekkr from '../assets/projects/trekkr.jpeg'
 import RemindMe from '../assets/projects/RemindMe.jpeg'
 import Maps from '../assets/projects/Maps.jpeg'
 import Alto from '../assets/projects/alto.jpeg'
+import experts from '../assets/projects/experts.jpeg'
 
 export const data=[
     {
@@ -55,6 +56,13 @@ export const data=[
         image: Alto,
         github:"https://altocontracting.netlify.app/",
         live:"https://altocontracting.netlify.app/",
+    },
+    {
+        id:8,
+        name:"ExpertsMed",
+        image: experts,
+        github:"#",
+        live:"https://expertsmed.net/index.html",
     },
     
     
